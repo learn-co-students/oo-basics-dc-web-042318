@@ -1,5 +1,6 @@
 class Book
-
+# for author to genre I can use an attribute accessor like this  attr_accessor :author, :page_count, :genre
+#for title I can use attr_reader :title
 def initialize (title)
   @title = title
 end
